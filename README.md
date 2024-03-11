@@ -22,7 +22,7 @@ Run branch2 with no arguments to find potential vulnerabilities/misconfiguration
 traitor -p
 ```
 
-Run with the `-a`/`--any` flag to find potential vulnerabilities, attempting to exploit each, stopping if a root shell is gained. Again, add the `-p` flag if the current user password is known.
+Run branch2 with the `-a`/`--any` flag to find potential vulnerabilities, attempting to exploit each, stopping if a root shell is gained. Again, add the `-p` flag if the current user password is known.
 
 ```bash
 traitor -a -p

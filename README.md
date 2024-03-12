@@ -28,7 +28,7 @@ Run with the `-a`/`--any` flag to find potential vulnerabilities, attempting to 
 traitor -a -p
 ```
 
-Run branch1 with the `-e`/`--exploit` flag to attempt to exploit a specific vulnerability and gain a root shell.
+Run branch11 with the `-e`/`--exploit` flag to attempt to exploit a specific vulnerability and gain a root shell.
 
 ```bash
 traitor -p -e docker:writable-socket
